@@ -56,6 +56,7 @@ const pokeNosearch = () => {
     name.innerText = `Who's That Pokemon?`;
     result.appendChild(name);
     const image = document.createElement('img');
+    image.classList.add("imagen");
     image.src = `../../resources/pokeunkownEdit.png`;
     result.appendChild(image);
 }

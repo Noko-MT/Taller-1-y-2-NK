@@ -1,7 +1,7 @@
 $color_fondo_poke: #fff;
 $color-letra: black;
 $fondo-pantalla: url('../../../resources/wallpaperbetter\(2\).jpg');
-$espacios: 10px;
+$tamano: 10px;
 body{
     background-color: aquamarine;
     background-image: $fondo-pantalla;
@@ -22,7 +22,7 @@ h1{
 
 .input{
     text-align: center;
-    margin: $espacios*4;
+    margin: $tamano*4;
 }
 
 #result{
@@ -31,10 +31,10 @@ h1{
     border: 4px solid black;
     border-radius: 10px;
     margin: auto;
-    //margin: $espacios*15;
+    //margin: $tamano*15;
     background-color: #fff;
-    font-size: $espacios*3;
+    font-size: $tamano*3;
     .imagen{
-        width: $espacios*20;
+        width: $tamano*20;
     }    
 }

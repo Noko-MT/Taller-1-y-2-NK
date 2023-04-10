@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Contact</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title>Formulario Contacto</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <h2>Formulario Contacto</h2>
+            <p>Formalario de contacto para todos los usuarios </p>
+        </header>
+       <form action="/formulario">
+            <label for="Nombre">Nombre:</label>
+            <input value="Nicolas" type="text" id="Nombre">
+            <label for="Correo electrónico">Correo electrónico:</label>
+            <input value="Nicolas@example.com" type="email" id="Correo electrónico">
+            <label for="Teléfono">Teléfono:</label>
+            <input value="+57311725457" type="text" id="Teléfono">
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" placeholder="Ingrese comentario">Agregar comentarios</textarea>
+            <button class="but" type="submit">Enviar</button>
+       </form> 
+    </body>
 </html>
