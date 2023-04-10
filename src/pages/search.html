@@ -6,8 +6,10 @@
 </head>
 <body> <!--#problemas con navegador por defecto arroja un background-color negro  style="background-color:  white;"-->
     <h1>Pokedex</h1>
-    <input type="text" id="pokeName" onkeydown="if(event.keyCode == 13){pokeSearch()}">
-    <button onclick="pokeSearch()">Search</button>
+    <div class="input">
+        <input type="text" id="pokeName" onkeydown="if(event.keyCode == 13){pokeSearch()}">
+        <button onclick="pokeSearch()">Search</button>
+    </div>
     <div id="result"></div>
 </body>
 <script src="../scripts/pokeSearch.js"></script>

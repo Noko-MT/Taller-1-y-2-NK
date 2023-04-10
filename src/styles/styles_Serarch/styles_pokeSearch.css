@@ -1,12 +1,27 @@
 body {
   background-color: aquamarine;
   background-image: url("../../../resources/wallpaperbetter(2).jpg");
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  margin: 40px;
 }
 
 #result {
+  width: 400px;
   text-align: center;
   border: 4px solid black;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  font-size: 30px;
 }
-#result .name {
-  size: 30px;
+#result .imagen {
+  width: 200px;
 }/*# sourceMappingURL=styles_pokeSearch.css.map */

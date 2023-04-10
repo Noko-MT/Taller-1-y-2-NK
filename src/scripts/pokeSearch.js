@@ -29,11 +29,11 @@ function pokeSearch() {
         //let tp = data.types.map(type => type.type.name);
         let tp = data.types;
         console.log(tp.length);
-        pokeType.innerText = data.types[0].type.name;
+        pokeType.innerText = idMayus(data.types[0].type.name);
         result.appendChild(pokeType);
         if(tp.length > 1){ 
             const pokeType1 = document.createElement('p');
-            pokeType1.innerText = data.types[1].type.name;
+            pokeType1.innerText = idMayus(data.types[1].type.name);
             result.appendChild(pokeType1);
         }
 
