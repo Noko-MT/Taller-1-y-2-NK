@@ -1,0 +1,44 @@
+$color_fondo_poke: #fff;
+$color-letra: black;
+$fondo-pantalla: url('../../../resources/wallpaperbetter\(2\).jpg');
+
+body {
+    background-color: aquamarine;
+    background-image: $fondo-pantalla;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    //font-family: "Oswald", sans-serif;
+}
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.estilo_label {
+
+    background-color: $color_fondo_poke;
+    padding-top: 20px;
+    //padding: 20px;
+    text-align: center;    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    //font-size: 20px;
+}
+
+    .estilos_subLabel {
+        margin: auto;
+        width: 100px; 
+        //height: 80px; 
+        border-radius: 50%;
+        padding: 20px;
+        background-color: rgb(42, 168, 226);
+        background-position: center;
+        text-align: center;
+    }
