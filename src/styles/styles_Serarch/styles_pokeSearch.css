@@ -31,4 +31,15 @@ h1 {
 }
 #result .imagen {
   width: 200px;
+}
+
+.button {
+  background-color: aquamarine;
+  color: black;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 20px;
+}
+.button:hover {
+  background-color: #00ffa9;
 }/*# sourceMappingURL=styles_pokeSearch.css.map */
