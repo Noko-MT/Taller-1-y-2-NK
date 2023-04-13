@@ -1,0 +1,9 @@
+$color_fondo_poke: #fff;
+$color-letra: black;
+$fondo-pantalla: url('../../../resources/wallpaperbetter\(2\).jpg');
+
+body {
+    background-color: aquamarine;
+    background-image: $fondo-pantalla;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
