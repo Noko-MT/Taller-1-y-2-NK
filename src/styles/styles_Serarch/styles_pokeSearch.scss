@@ -52,5 +52,5 @@ h1{
 }
 
 .button {
-    @include button(aquamarine, black, 2px)
+    @include button(rgb(12, 156, 48), black, 2px)
 }

@@ -3,7 +3,23 @@ $color-letra: black;
 $fondo-pantalla: url('../../../resources/wallpaperbetter\(2\).jpg');
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: aquamarine;
     background-image: $fondo-pantalla;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: $color_fondo_poke;
+    padding: 20px;
+    //margin: 20px;
+    display: flex;
+    .box {
+        text-align: center;
+        a {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 50px;
+        }
+    }
 }

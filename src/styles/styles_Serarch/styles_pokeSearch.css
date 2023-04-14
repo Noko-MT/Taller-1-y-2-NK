@@ -34,12 +34,12 @@ h1 {
 }
 
 .button {
-  background-color: aquamarine;
+  background-color: rgb(12, 156, 48);
   color: black;
   border: 2px solid black;
   border-radius: 6px;
   padding: 20px;
 }
 .button:hover {
-  background-color: #00ffa9;
+  background-color: #03260c;
 }/*# sourceMappingURL=styles_pokeSearch.css.map */
