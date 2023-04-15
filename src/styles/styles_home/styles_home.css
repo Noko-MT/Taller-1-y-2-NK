@@ -10,12 +10,20 @@ header {
   background-color: #fff;
   padding: 20px;
   display: flex;
+  justify-content: center;
 }
 header .box {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
 }
 header .box a {
   padding: 10px;
+  margin: 8px;
   border: 2px solid black;
   border-radius: 50px;
+  color: #fff;
+  background-color: gray;
+  text-decoration: none;
 }/*# sourceMappingURL=styles_home.css.map */
